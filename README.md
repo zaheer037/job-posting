@@ -4,6 +4,7 @@
 
 A web-based application that allows companies to post job listings and manage interviews. The app offers an intuitive interface for both companies and job seekers, along with real-time OTP verification during signup. This README provides information about the setup, functionality, and deployment of the application.
 
+Live Demo: https://jobpostingapp.netlify.app/
 ## Table of Contents
 
 - [Features](#features)
@@ -31,7 +32,7 @@ A web-based application that allows companies to post job listings and manage in
 - **Backend**: Node.js, Express.js, MongoDB
 - **Authentication**: JWT (JSON Web Tokens)
 - **OTP Service**: Twilio (SMS OTP), Nodemailer (Email OTP)
-- **Deployment**: [Vercel/Netlify for Frontend], [Heroku/Render for Backend]
+- **Deployment**: Netlify for Frontend, Render for Backend
 - **Version Control**: Git, GitHub
 
 ## Installation
