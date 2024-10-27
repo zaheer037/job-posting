@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    gap: 20px;
+    color: #576474;
+    white-space: nowrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font: 500 28px DM Sans, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .header {
+      max-width: 100%;
+      white-space: initial;
+    }
+  }
+
+  .logo {
+    aspect-ratio: 3.83;
+    object-fit: contain;
+    object-position: center;
+    width: 165px;
+    max-width: 100%;
+  }

@@ -1,0 +1,118 @@
+.otp-verification-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .left-section {
+    width: 50%;
+  }
+  
+  .left-section h1 {
+    font-size: 40px;
+  }
+  
+  .left-section p {
+    font-size: 16px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .right-section {
+    width: 40%;
+    border: 1px solid #ccc;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .otp-verification-form h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .otp-verification-form p {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .form-group.verified input {
+    border-color: #28a745; /* Green border when verified */
+  }
+  
+  .icon-verified {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #28a745;
+    font-size: 18px;
+  }
+  
+  .verify-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+  
+  .verify-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
+  .submit-btn:hover:enabled {
+    background-color: #0056b3;
+  }
+  .send-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: green; /* A different color, e.g., teal */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+  .send-btn:hover {
+    background-color: #0056b3;
+  }
+  .send-btn[disabled] {
+    background-color: #cccccc;
+    cursor: not-allowed;
+    opacity: 0.6;
+  }

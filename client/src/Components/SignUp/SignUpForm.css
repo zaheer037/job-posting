@@ -1,0 +1,90 @@
+.signup-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .left-section {
+    padding-top: 100px;
+    text-align: center;
+    width: 50%;
+  }
+  
+  .left-section h1 {
+    font-size: 40px;
+  }
+  
+  .left-section p {
+    font-size: 16px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .right-section {
+    width: 40%;
+    border: 1px solid #ccc;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .signup-form h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .signup-form p {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .terms {
+    font-size: 12px;
+    color: #999;
+    margin-top: 10px;
+  }
+  
+  .terms a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .signup-container {
+    display: flex;
+  }
+  
+
+  
