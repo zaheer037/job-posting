@@ -34,7 +34,7 @@ Welcome to **Job Posting Application**! This is a full-stack web application whe
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
 - **Authentication:** OTP Verification (Email & Phone) with Twilio
-- **Deployment:** Heroku for Backend, Vercel for Frontend
+- **Deployment:** Render for Backend, Netlify for Frontend
 
 ## Installation & Setup
 
@@ -46,7 +46,7 @@ Welcome to **Job Posting Application**! This is a full-stack web application whe
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/job-posting-app.git
+git clone https://github.com/zaheer037/job-posting-app.git
 cd job-posting-app
 ```
 
@@ -125,5 +125,3 @@ To access the live version, click [here](Insert Your Live Link).
 This project demonstrates a secure job posting application with features like OTP verification and dynamic job management. Feel free to fork the repository, add features, or report any issues. Thank you for checking out the Job Posting Application!
 
 ---
-
-This README can be modified based on your specific deployment details and project specifics. Be sure to include the actual live link when it's ready.
